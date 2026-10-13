@@ -10,6 +10,7 @@ on:
       - ".github/workflows/radar-lite.yml"
   schedule:
     - cron: "15 23 * * *"
+    - cron: "15 7 * * *"
   workflow_dispatch:
 
 permissions:
